@@ -1,2 +1,2 @@
 # x2y2_rank
-使用selenium从x2y2拿到nft的rank
+使用selenium从x2y2拿到指定编号的nft的rank
