@@ -30,7 +30,7 @@ if __name__ == '__main__':
         driver.get(f'https://x2y2.io/eth/{contract}/{i}')
         # time.sleep(1)
         element_lists = driver.find_elements(By.XPATH, "//p[@class='ts-caption-2 font-bold']")
-        if element_lists[0].text == 'N/A':
+        if len(element_lists) == 1:
             print("未显示RANK")
             break
         if len(element_lists) == 2:
