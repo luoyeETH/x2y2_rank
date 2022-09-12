@@ -1,0 +1,29 @@
+{
+  "name": "x2y2_rank",
+  "version": "1.0.0",
+  "description": "使用selenium从x2y2拿到指定编号的nft的rank",
+  "main": "index.js",
+  "bin": "./index.js",
+  "scripts": {
+    "pkg": "pkg . --out-path=dist/"
+  },
+  "pkg": {
+    "scripts": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luoyeETH/x2y2_rank.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luoyeETH/x2y2_rank/issues"
+  },
+  "homepage": "https://github.com/luoyeETH/x2y2_rank#readme",
+  "dependencies": {
+    "@alch/alchemy-web3": "^1.4.6",
+    "path": "^0.12.7",
+    "selenium-webdriver": "^4.4.0"
+  }
+}
